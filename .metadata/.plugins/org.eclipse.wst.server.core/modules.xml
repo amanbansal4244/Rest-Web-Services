@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.j2ee.server:1AddTwoNumberAndShowOnAsJSP" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:CalculatorService"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:8_1.MVC_Interceptor" serverId="Tomcat v7.0 Server at localhost"/>
+</modules>

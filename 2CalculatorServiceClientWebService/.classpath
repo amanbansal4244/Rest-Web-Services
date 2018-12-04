@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_161]">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Spring_REST_WEB_Service_Eclipse_Code/2CalculatorService/src/main/webapp/WEB-INF/lib/axis.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Spring_REST_WEB_Service_Eclipse_Code/2CalculatorService/src/main/webapp/WEB-INF/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Spring_REST_WEB_Service_Eclipse_Code/2CalculatorService/src/main/webapp/WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Spring_REST_WEB_Service_Eclipse_Code/2CalculatorService/src/main/webapp/WEB-INF/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Spring_REST_WEB_Service_Eclipse_Code/2CalculatorService/src/main/webapp/WEB-INF/lib/saaj.jar"/>
+	<classpathentry kind="lib" path="/Users/bansal/Desktop/Study Material/Workspace/Spring_REST_WEB_Service_Eclipse_Code/2CalculatorService/src/main/webapp/WEB-INF/lib/wsdl4j.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Udemy_Lec9_RESTfullWS_Product_CRUD&apos;&#x0A;- Original project: &apos;Udemy_Lec9_RESTfullWS_Product_CRUD&apos;&#x0A;- Original element: &apos;com.bharath.restws.FileClient.java&apos;" description="Delete element" element1="/src\/main\/java&lt;com.bharath.restws{FileClient.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1533368860424" subPackages="false" version="1.0"/>
+</session>

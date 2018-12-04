@@ -1,0 +1,48 @@
+package com.aman.DAOLayer;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import com.aman.model.Circle;
+
+public class JDBCDaoImpl {
+	
+	public Circle getCircle(int circleId) throws ClassNotFoundException{
+		
+		Connection con = null;
+		try{
+		String url ="jdbc:mysql://127.0.0.1:3306/test"; // test -> database name, 3306: port no, 127.0.0.1: IP of installed db server, mysql: we are using mysql, jdbc -> working with JDBC
+		String uname ="root"; // root: by default user name when we installed mysql server
+		String pass ="Proxy_11";
+		String query ="select * from circleTable where id =?";
+		Circle circle = null;
+		Class.forName("com.mysql.jdbc.Driver"); //for name is a method which will help you to load the drivers.
+		 con = DriverManager.getConnection(url, uname, pass); // getConnection() is a static method of 'DriverManager' class which gives instance of Connection(class- which implements the 'Connection' interface)
+		PreparedStatement ps = con.prepareStatement(query);
+		ps.setInt(1, circleId);
+		ResultSet rs = ps.executeQuery();
+		
+		while(rs.next()){
+			String name = rs.getString("name");
+			circle = new Circle(circleId, name);
+		}
+		rs.close();
+		ps.close();
+		return circle;
+		
+		}catch(Exception e){
+			throw new RuntimeException(e);
+		}finally{
+			try{
+				con.close();
+			}catch(SQLException e){
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

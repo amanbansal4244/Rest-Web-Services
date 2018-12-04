@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Udemy_Lec5_RESTfullWS_AsynchronousClient"/>
+<aop-project name="Udemy_Lec2_RESTfullWS_ExceptionHandling"/>
+<aop-project name="Udemy_Lec4_RESTfullWS_AsynchronousClient"/>
+<aop-project name="Udemy_Lec1_RESTfullWS_PassengerService"/>
+<aop-project name="Udemy_Lec3_RESTfullWS_Client"/>
+<aop-project name="1.ListOfEmployee_RestWebService"/>
+<aop-project name="Udemy_Lec7_RESTfullWS_RestAttachments"/>
+<aop-project name="Udemy_Lec8_RESTfullWS_RestAttachmentsClient"/>
+<aop-project name="Udemy_Lec9_RESTfullWS_CRUD_Operation"/>
+<aop-project name="Udemy_Lec6_RESTfullWS_SpringSecurity"/>
+</aop-reference-model>

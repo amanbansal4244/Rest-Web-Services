@@ -1,0 +1,6 @@
+1504720705350	Move 'com' to 'java'
+1504720722414	Delete elements
+1504720730385	Move 'jsp' to 'WEB-INF'
+1504720742868	Move 'MVCPagination-servlet.xml' to 'WEB-INF'
+1504720750521	Move 'web.xml' to 'WEB-INF'
+1504720755169	Move 'index.jsp' to 'webapp'

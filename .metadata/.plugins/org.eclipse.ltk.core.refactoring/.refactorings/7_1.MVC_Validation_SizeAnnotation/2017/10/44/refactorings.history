@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;src&apos; to &apos;8_1.MVC_Interceptor&apos;&#x0D;&#x0A;- Original project: &apos;7_1.MVC_Validation_SizeAnnotation&apos;&#x0D;&#x0A;- Destination element: &apos;8_1.MVC_Interceptor&apos;&#x0D;&#x0A;- Original element: &apos;src&apos;" description="Copy folder" element1="src" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1509381353379" target="/8_1.MVC_Interceptor" units="0" version="1.0"/>
+</session>

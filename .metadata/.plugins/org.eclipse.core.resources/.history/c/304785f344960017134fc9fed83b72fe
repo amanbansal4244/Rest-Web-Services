@@ -1,0 +1,10 @@
+
+public class Test {
+
+	static int x=90;
+	 public void m1(){
+		System.out.println(x);
+	}
+	
+	
+}
